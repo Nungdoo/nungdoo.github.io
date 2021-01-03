@@ -1,0 +1,35 @@
+@import "reset.css";
+@import "sidebar.css";
+@import url(https://fonts.googleapis.com/css?family=Arimo:400,400italic,700,700italic);
+
+body,
+html {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  font-family: 'Arimo', sans-serif;
+}
+
+main {
+  z-index: 2;
+  position: relative;
+  height: 100%;
+  /*background-color: #2D3142;*/
+  background-color: #a6e8aa;
+  -webkit-transition: transform .7s ease-in-out;
+  -moz-transition: transform .7s ease-in-out;
+  -ms-transition: transform .7s ease-in-out;
+  -o-transition: transform .7s ease-in-out;
+  transition: transform .7s ease-in-out;
+}
+
+.index-intro {
+    padding-top: 25%;
+    padding-left: 10%;
+}
+
+.index-intro__text {
+    font-size: 75px;
+    font-weight: 600;
+    padding-top: 25px;
+}
