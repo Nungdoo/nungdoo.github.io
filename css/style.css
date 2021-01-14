@@ -27,8 +27,15 @@ main {
   transition: transform .7s ease-in-out;
 }
 
+.index-intro__img {
+  width: 250px;
+  height: 250px;
+  position: relative;
+  left: -30px;
+}
+
 .index-intro {
-    padding-top: 25%;
+    padding-top: 20%;
     padding-left: 10%;
 }
 
