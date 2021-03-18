@@ -118,6 +118,14 @@
     margin-left: 10%;
     text-align: left;
   }
+
+  .sidebar-inner-list {
+    margin-top: 20px;
+    /*
+    보이지 않도록 처리
+    sidebar-item or sidebar-anchor 클릭 시에만
+    챠르륵 노출되도록 처리
+    */
   }
   
   .sidebar-item {
@@ -191,6 +199,10 @@
     -o-transform: translateY(0px);
     transform: translateY(0px);
   }
+
+  .sidebar-inner-item {
+    margin: 15px 20px;
+  }
   
   .sidebar-anchor {
     color: #FFF;
@@ -219,6 +231,15 @@
   
   .sidebar-anchor:hover:before {
     width: 100%;
+  }
+
+  .sidebar-inner-anchor {
+    color: #999999;
+    text-decoration: none;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    position: relative;
+    padding-bottom: 5px;
   }
   
   .ua {
